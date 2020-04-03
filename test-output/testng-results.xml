@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46233" started-at="2020-04-03T14:09:22 IST" finished-at="2020-04-03T14:10:08 IST">
+    <groups>
+      <group name="Regression">
+        <method signature="Interactions.Droppable()[pri:2, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="Droppable" class="com.pcs.toolsqa.Interactions"/>
+        <method signature="Interactions.Resizable()[pri:0, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="Resizable" class="com.pcs.toolsqa.Interactions"/>
+        <method signature="Interactions.Sortable()[pri:0, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="Sortable" class="com.pcs.toolsqa.Interactions"/>
+        <method signature="Interactions.Selectable()[pri:0, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="Selectable" class="com.pcs.toolsqa.Interactions"/>
+        <method signature="Interactions.Draggable()[pri:0, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="Draggable" class="com.pcs.toolsqa.Interactions"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Default test" duration-ms="46233" started-at="2020-04-03T14:09:22 IST" finished-at="2020-04-03T14:10:08 IST">
+      <class name="com.pcs.toolsqa.Interactions">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="setup" is-config="true" duration-ms="199" started-at="2020-04-03T14:09:22 IST" finished-at="2020-04-03T14:09:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="beforeClass" is-config="true" duration-ms="11015" started-at="2020-04-03T14:09:22 IST" finished-at="2020-04-03T14:09:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="beforeM" is-config="true" duration-ms="6604" started-at="2020-04-03T14:09:33 IST" finished-at="2020-04-03T14:09:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="Draggable()[pri:0, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="Draggable" duration-ms="6891" started-at="2020-04-03T14:09:39 IST" finished-at="2020-04-03T14:09:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Draggable -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="beforeM" is-config="true" duration-ms="1747" started-at="2020-04-03T14:09:46 IST" finished-at="2020-04-03T14:09:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="Resizable()[pri:0, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="Resizable" duration-ms="2167" started-at="2020-04-03T14:09:48 IST" finished-at="2020-04-03T14:09:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Resizable -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="beforeM" is-config="true" duration-ms="1285" started-at="2020-04-03T14:09:50 IST" finished-at="2020-04-03T14:09:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="Sortable()[pri:0, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="Sortable" duration-ms="1782" started-at="2020-04-03T14:09:52 IST" finished-at="2020-04-03T14:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sortable -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="beforeM" is-config="true" duration-ms="1320" started-at="2020-04-03T14:09:53 IST" finished-at="2020-04-03T14:09:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="Selectable()[pri:0, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="Selectable" duration-ms="2275" started-at="2020-04-03T14:09:55 IST" depends-on-methods="com.pcs.toolsqa.Interactions.Sortable" finished-at="2020-04-03T14:09:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selectable -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="beforeM" is-config="true" duration-ms="1257" started-at="2020-04-03T14:09:57 IST" finished-at="2020-04-03T14:09:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="Droppable()[pri:2, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="Droppable" duration-ms="2176" started-at="2020-04-03T14:09:58 IST" finished-at="2020-04-03T14:10:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Droppable -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.pcs.toolsqa.Interactions@167fdd33]" name="afterClass" is-config="true" duration-ms="7556" started-at="2020-04-03T14:10:00 IST" finished-at="2020-04-03T14:10:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.pcs.toolsqa.Interactions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
